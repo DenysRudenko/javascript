@@ -30,6 +30,27 @@ const vehicleBodyLenght = 4000;
 
 console.log("Width of the car: " + vehicleBodyWidth + ', length: ' + vehicleBodyLenght);
 
+// difference between arrays and obj
+
+const array = [1, 2, 3];
+const arrObj = {
+    0: 'a',
+    1: 'b',
+    2: 'c'
+};
+
+// const obj2 = { a: 1, b: 2 };
+
+console.log(array[1]);
+console.log(arrObj[1]);
+
+const onj2 = {
+    "Anna": 500,
+    "Alice": 800
+};
+
+
+
 // Numbers
 
 let SecondNumber = 4.6;
