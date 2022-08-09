@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // let number = 5;
 // const leftBorderWidth = 1;
@@ -89,11 +89,20 @@
 // console.log(typeof(answer));
 
 
-const answers = [];
+// const answers = [];
 
-answers[0] = prompt('What is your name?', "");
-answers[1] = prompt('What is your surename?', "");
-answers[2] = prompt('How old are you?', "");
+// answers[0] = prompt('What is your name?', "");
+// answers[1] = prompt('What is your surename?', "");
+// answers[2] = prompt('How old are you?', "");
 
-document.write(answers);
+// document.write(answers);
+
+const category = "toys";
+
+console.log(`https://someurl.com/${category}/5`);
+
+const user = 'Denys';
+
+alert(`Hello${user}`);
+
 
