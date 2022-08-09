@@ -117,6 +117,7 @@
 // console.log(incr);
 // console.log(dcr);
 
+//------------------------------------------------------------------
 // Asking a user for about movies and asking him to type his answer.
 const numberOfFilms = +prompt("How much films have you wached?", "");
 
@@ -144,10 +145,43 @@ personalMoviesDB.movies[c] = d;
 
 console.log(personalMoviesDB);
 
+//--------------------------------------------------------------------------------------
+// If else
+
+if (4 == 9) {
+    console.log("Ok");
+} else {
+    console.log("Error");
+}
+
+const num = 50;
+
+if (num < 49) {
+    console.log("error");
+} else if (num > 100) {
+    console.log("Too much");
+} else {
+    console.log("Okay!");
+}
 
 
- 
-    
+// ternary operator
+
+(num === 50) ? console.log("Ok!") : console.log("Error");
+
+switch (num) { // If num
+    case 49:        // equals 49
+        console.log("Incorrect");       // then show that in console
+        break;          // pause
+    case 100:
+        console.log("Incorrect");
+        break;
+    case 50:
+        console.log("Right!");
+        break;
+    default:
+        console.log("Not right time");
+}
 
 
 
