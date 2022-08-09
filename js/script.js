@@ -105,16 +105,51 @@
 
 // alert(`Hello${user}`);
 
-console.log('arr' + ' - object');
-console.log(4 + '5');
+// console.log('arr' + ' - object');
+// console.log(4 + '5');
 
-let incr = 10,
-    dcr = 10;
+// let incr = 10,
+//     dcr = 10;
 
 // incr++;
 // dcr--;
 
-console.log(incr);
-console.log(dcr);
+// console.log(incr);
+// console.log(dcr);
+
+// Asking a user for about movies and asking him to type his answer.
+const numberOfFilms = +prompt("How much films have you wached?", "");
+
+// Creating constanta with a number of films user wathed, which movies, what actors and genres.
+const personalMoviesDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [
+        
+    ],
+    privat: false
+};
+
+// Asking the user additional questions.
+const a = prompt("What is the name of last movie you saw?", ""),
+    b = +prompt("Vote your grade for movie, from 1 to 10!", ""),
+    c = +prompt("How much films have you watched?", ""),
+    d = prompt("What is the name of last movie you saw?", "");
+
+
+// Writing the user answer data into personalMovieDB.movies const.    
+personalMoviesDB.movies[a] = b;
+personalMoviesDB.movies[c] = d;
+
+console.log(personalMoviesDB);
+
+
+
+ 
+    
+
+
+
 
 
