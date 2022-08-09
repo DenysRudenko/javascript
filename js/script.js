@@ -119,71 +119,113 @@
 
 //------------------------------------------------------------------
 // Asking a user for about movies and asking him to type his answer.
-const numberOfFilms = +prompt("How much films have you wached?", "");
+// const numberOfFilms = +prompt("How much films have you wached?", "");
 
-// Creating constanta with a number of films user wathed, which movies, what actors and genres.
-const personalMoviesDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [
+// // Creating constanta with a number of films user wathed, which movies, what actors and genres.
+// const personalMoviesDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [
         
-    ],
-    privat: false
-};
+//     ],
+//     privat: false
+// };
 
-// Asking the user additional questions.
-const a = prompt("What is the name of last movie you saw?", ""),
-    b = +prompt("Vote your grade for movie, from 1 to 10!", ""),
-    c = +prompt("How much films have you watched?", ""),
-    d = prompt("What is the name of last movie you saw?", "");
+// // Asking the user additional questions.
+// const a = prompt("What is the name of last movie you saw?", ""),
+//     b = +prompt("Vote your grade for movie, from 1 to 10!", ""),
+//     c = +prompt("How much films have you watched?", ""),
+//     d = prompt("What is the name of last movie you saw?", "");
 
 
-// Writing the user answer data into personalMovieDB.movies const.    
-personalMoviesDB.movies[a] = b;
-personalMoviesDB.movies[c] = d;
+// // Writing the user answer data into personalMovieDB.movies const.    
+// personalMoviesDB.movies[a] = b;
+// personalMoviesDB.movies[c] = d;
 
-console.log(personalMoviesDB);
+// console.log(personalMoviesDB);
 
 //--------------------------------------------------------------------------------------
 // If else
 
-if (4 == 9) {
-    console.log("Ok");
-} else {
-    console.log("Error");
-}
+// if (4 == 9) {
+//     console.log("Ok");
+// } else {
+//     console.log("Error");
+// }
 
-const num = 50;
+// const num = 50;
 
-if (num < 49) {
-    console.log("error");
-} else if (num > 100) {
-    console.log("Too much");
-} else {
-    console.log("Okay!");
-}
+// if (num < 49) {
+//     console.log("error");
+// } else if (num > 100) {
+//     console.log("Too much");
+// } else {
+//     console.log("Okay!");
+// }
 
 
 // ternary operator
 
-(num === 50) ? console.log("Ok!") : console.log("Error");
+// (num === 50) ? console.log("Ok!") : console.log("Error");
 
-switch (num) { // If num
-    case 49:        // equals 49
-        console.log("Incorrect");       // then show that in console
-        break;          // pause
-    case 100:
-        console.log("Incorrect");
-        break;
-    case 50:
-        console.log("Right!");
-        break;
-    default:
-        console.log("Not right time");
-}
+// switch (num) { // If num
+//     case 49:        // equals 49
+//         console.log("Incorrect");       // then show that in console
+//         break;          // pause
+//     case 100:
+//         console.log("Incorrect");
+//         break;
+//     case 50:
+//         console.log("Right!");
+//         break;
+//     default:
+//         console.log("Not right time");
+// }
 
+//  Logical operators
 
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
 
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log("You can order that meal!");
+// } else {
+//     console.log("We`re leaving!");
+//  }
 
+// console.log((hamburger && fries));
 
+// const hamburger = 3;
+// const fries = 0;
+// const cola = 0;
+// const nuggets = 2;
+
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log("Everyone got a meal");
+// } else {
+//     console.log("We are leaving!");
+// }
+
+// let johnReport, alexReport, samReport, mariaReport = "done";
+
+// console.log((johnReport || alexReport || samReport || mariaReport));
+
+// console.log(!0);
+
+// console.log( NaN || 2 || undefined );
+
+// console.log( NaN && 2 && undefined );
+
+// console.log( 1 && 2 && 3 );
+
+// console.log(!1 && 2 || !3);
+
+// console.log(25 || null && !3);
+
+// console.log(NaN || null || !3 || undefined || 5);
+
+// console.log(NaN || null && !3 && undefined || 5);
+
+// console.log(5 === 5 && 3 > 1 || 5);
