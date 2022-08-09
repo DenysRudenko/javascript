@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // let number = 5;
 // const leftBorderWidth = 1;
@@ -97,12 +97,24 @@
 
 // document.write(answers);
 
-const category = "toys";
+// const category = "toys";
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
-const user = 'Denys';
+// const user = 'Denys';
 
-alert(`Hello${user}`);
+// alert(`Hello${user}`);
+
+console.log('arr' + ' - object');
+console.log(4 + '5');
+
+let incr = 10,
+    dcr = 10;
+
+// incr++;
+// dcr--;
+
+console.log(incr);
+console.log(dcr);
 
 
