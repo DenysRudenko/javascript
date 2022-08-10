@@ -229,3 +229,145 @@
 // console.log(NaN || null && !3 && undefined || 5);
 
 // console.log(5 === 5 && 3 > 1 || 5);
+
+// let num = 50;
+
+
+// First style of while!!!
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+
+// Secont style of while
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// Third style of while!
+
+// for (let i = 1; i < 8; i++) {
+//     if (i === 6) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// Cycle in cycles
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; i < 3; j++){
+//         console.log(j);
+//     }
+// }
+
+// *
+// **
+// ***
+// ****
+// *****
+
+// let result = "";
+// const len = 7;
+
+// for (let i = 1; i < len; i++){
+
+//     for (let j = 0; j < i; j++){
+//         result += "*";
+//     }
+
+//     result += "\n";
+// }
+
+// console.log(result);
+
+// first: for (let i = 0; i < 3; i++){
+//     console.log(`First level: ${i}`);
+//     for (let j = 0; j < 3; j++){
+//         console.log(`Second level: ${j}`);
+//         for (let k = 0; k < 3; k++){
+//             if (k === 2) continue first;
+//             console.log(`Third level: ${k}`);
+//         }
+//     }
+// }
+
+// function firstTask() {
+//     for (let i = 5; i < 11; i++){
+//         console.log(i);
+//     }
+// }
+
+// firstTask();
+
+// console.log("-" * 10);
+
+// function secondTask() {
+//     for (let i = 20; i >= 10; i--){
+//         if (i === 13) break;
+//         console.log(i);
+//     }
+// }
+
+// secondTask();
+
+// console.log("-" * 10);
+
+// function thirdTask() {
+//     for (let i = 2; i <= 10; i++){
+//         if (i % 2 === 0) {
+//             console.log(i);
+//         }
+//     }
+// }
+
+// thirdTask();
+
+// console.log('-' * 10);
+
+// function fourthTask() {
+//     let i = 2;
+
+//     while (i <= 16) {
+//         if (i % 2 === 0) {
+//             i++;
+//             continue;
+//         } else {
+//             console.log(i);
+//         }
+//         i++;
+//     }
+// }
+
+// fourthTask();
+
+
+// function fiftTask() {
+//     const arrayofNumbers = [];
+
+//     for (let i = 5; i < 11; i++){
+//         arrayofNumbers[i - 5] = i;
+//     }
+
+//     console.log(arrayofNumbers);
+//     return arrayofNumbers;
+// }
+
+// function firstTask() {
+//     const arr = [3, 5, 8, 16, 20, 23, 50];
+//     const result = [];
+
+//     for (let i = 0; i < arr; i++){
+//         result[i] = arr[i];
+//     }
+    
+//     console.log(result);
+//     return result;
+    
+// }
+
+// firstTask();
