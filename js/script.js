@@ -424,37 +424,82 @@
 
 // Function arguments
 
-const usdCurr = 28;
-const eurCurr = 32;
-const discount = 0.9;
+// const usdCurr = 28;
+// const eurCurr = 32;
+// const discount = 0.9;
 
-function convert(amount, curr) {
-    return curr * amount;
-}
+// function convert(amount, curr) {
+//     return curr * amount;
+// }
 
-function promotion(result) {
-    console.log( result * discount );
+// function promotion(result) {
+//     console.log( result * discount );
 
-}
+// }
 
 
-const res = convert(500, usdCurr);
-promotion(res);
+// const res = convert(500, usdCurr);
+// promotion(res);
 
-function test() {
-    for (let i = 0; i < 5; i++){
-        console.log(i);
-        if (i === 3) return
-    }
-    console.log("Done");
-}
+// function test() {
+//     for (let i = 0; i < 5; i++){
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log("Done");
+// }
 
-test();
+// test();
 
 
 // Empty function!!!
 
-function doNothing() {
-};
+// function doNothing() {
+// };
 
-console.log(doNothing() === undefined);
+// console.log(doNothing() === undefined);
+
+// Homework for fucntions
+
+function sayHello(name) {
+    return `Привет,${name}!`;
+}
+
+sayHello('Антон');
+
+
+function returnNeighboringNumbers(num) {
+    return [num - 1, num, num + 1];
+}
+
+returnNeighboringNumbers(5);
+
+
+
+function getMathResult(num, times) {
+    if (typeof(times) !== 'number' || times <= 0) {
+        return num;
+    }
+
+    let str = '';
+
+    for (let i = 1; i <= times; i++) {
+        if (i === times) {
+            str += `${num * i}`;
+            // Тут без черточек в конце
+        } else {
+            str += `${num * i}---`;
+            // Это тоже самое, что и
+            // str = str + num * i + "---"
+        }
+    }
+
+    return str;
+}
+
+getMathResult(5, 3);
+getMathResult(3, 10);
+getMathResult(10, 5);
+getMathResult(10, '5');
+getMathResult(10, 0);
+getMathResult(20, -5);
