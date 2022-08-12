@@ -461,45 +461,70 @@
 
 // Homework for fucntions
 
-function sayHello(name) {
-    return `Привет,${name}!`;
-}
+// function sayHello(name) {
+//     return `Привет,${name}!`;
+// }
 
-sayHello('Антон');
-
-
-function returnNeighboringNumbers(num) {
-    return [num - 1, num, num + 1];
-}
-
-returnNeighboringNumbers(5);
+// sayHello('Антон');
 
 
+// function returnNeighboringNumbers(num) {
+//     return [num - 1, num, num + 1];
+// }
 
-function getMathResult(num, times) {
-    if (typeof(times) !== 'number' || times <= 0) {
-        return num;
-    }
+// returnNeighboringNumbers(5);
 
-    let str = '';
 
-    for (let i = 1; i <= times; i++) {
-        if (i === times) {
-            str += `${num * i}`;
-            // Тут без черточек в конце
-        } else {
-            str += `${num * i}---`;
-            // Это тоже самое, что и
-            // str = str + num * i + "---"
-        }
-    }
 
-    return str;
-}
+// function getMathResult(num, times) {
+//     if (typeof(times) !== 'number' || times <= 0) {
+//         return num;
+//     }
 
-getMathResult(5, 3);
-getMathResult(3, 10);
-getMathResult(10, 5);
-getMathResult(10, '5');
-getMathResult(10, 0);
-getMathResult(20, -5);
+//     let str = '';
+
+//     for (let i = 1; i <= times; i++) {
+//         if (i === times) {
+//             str += `${num * i}`;
+//             // Тут без черточек в конце
+//         } else {
+//             str += `${num * i}---`;
+//             // Это тоже самое, что и
+//             // str = str + num * i + "---"
+//         }
+//     }
+
+//     return str;
+// }
+
+// getMathResult(5, 3);
+// getMathResult(3, 10);
+// getMathResult(10, 5);
+// getMathResult(10, '5');
+// getMathResult(10, 0);
+// getMathResult(20, -5);
+
+// const str = "test";
+// const arr = [1, 2, 4];
+
+// console.log(str.toUpperCase());
+
+// const fruit = "Some Fruit";
+
+// console.log(fruit.indexOf("fruit"));
+
+// const logg = "Hello";
+
+// console.log(logg.slice(2, 6));
+
+// сonsole.log(logg.substring(2, 6));
+
+// console.log(logg.substr())
+
+// const num3 = 12.2;
+
+// console.log(Math.round(num3));
+
+// const test = "12.2px";
+
+// console.log(parsInt(test));
