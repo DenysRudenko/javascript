@@ -32,6 +32,8 @@
 
 // // difference between arrays and obj
 
+
+
 // const array = [1, 2, 3];
 // const arrObj = {
 //     0: 'a',
@@ -102,6 +104,9 @@
 // console.log(`https://someurl.com/${category}/5`);
 
 // const user = 'Denys';
+
+
+
 
 // alert(`Hello${user}`);
 
@@ -528,3 +533,49 @@
 // const test = "12.2px";
 
 // console.log(parsInt(test));
+
+// function calculateVolumeAndArea(length) {
+//     if (typeof(length) !== 'number' || length < 0 || !Number.isInteger(length)) {
+//         return 'При вычислении произошла ошибка';
+//     }
+
+//     let volume = 0;
+//         area = 0;
+
+//     volume = lenght * lenght * lenght;
+//     // forumula of qube volume
+
+//     area = 6 * (lenght * length);
+
+//     return `Обьем куба: ${volume}, площадь всей поверхности : ${area}`;
+// }
+
+// формула обьема длина в кубе
+
+// function first() {
+//     // Do something
+
+//     setTimeout(function () {
+//         console.log(1)
+//     }, 500);
+// }
+
+// function second() {
+//     console.log(2);
+// }
+
+// first();
+
+// second();
+
+// function learnJs(lang, callback) {
+//     console.log(`Я учу: ${lang}.`);
+//     callback();
+// }
+
+// function done() {
+//     console.log('I finished that lesson!');
+// }
+
+// learnJs('JavaScript', done);
+
