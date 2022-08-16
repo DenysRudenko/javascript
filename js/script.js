@@ -761,29 +761,63 @@
 // console.log(typeof (strObj));
 
 
-let str = "some";
-let strObj = new String(str);
+// let str = "some";
+// let strObj = new String(str);
 
 // console.log(typeof (str));
 // console.log(typeof (strObj));
 
-console.dir([1, 2, 3]);
+// console.dir([1, 2, 3]);
 
-const soldier = {
-    health: 400,
-    armor: 100
-    sayHello: function () {
-        console.log("Hello");
-    }
-};
+// const soldier = {
+//     health: 400,
+//     armor: 100
+//     sayHello: function () {
+//         console.log("Hello");
+//     }
+// };
 
-const jonh = {
-    health: 100
-};
+// const jonh = {
+//     health: 100
+// };
 
 // john.__proto__ = soldier;
 
-Object.setPrototypeOf(john, soldier);
+// Object.setPrototypeOf(john, soldier);
 
 
-const john = Object.create(soldier);
+// const john = Object.create(soldier);
+
+
+
+// console.log(typepf(String(null)));
+
+// const num = 5;
+
+// console.log("https://vk.com/catalog/" + num);
+
+// const fontSize = 26 + 'px';
+
+// console.log(typeof (Number('4')));
+
+// console.log(typeof (+'5'));
+
+// console.log(typeof (parseInt("15px", 10)));
+
+// let answ = +prompt("Hello", '');
+
+// // 0, "", null, undefined, NaN;
+
+// let switcher = null;
+
+// if (switcher) {
+//     console.log("Working...");
+// }
+
+// switcher = 1;
+
+// console.log(typeof (Boolean('44')));
+
+// console.log(typeof (!!'44444'));
+
+
