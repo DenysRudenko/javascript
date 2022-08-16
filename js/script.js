@@ -725,30 +725,65 @@
 // console.log(oldArray);
 
 
-const video = ['youtube', 'video', 'rutube'],
-    blogs = ['wordpress', 'livejournal', 'blogger'],
-    internet = [...video, ...blogs, 'vk', 'facebook'];
+// const video = ['youtube', 'video', 'rutube'],
+//     blogs = ['wordpress', 'livejournal', 'blogger'],
+//     internet = [...video, ...blogs, 'vk', 'facebook'];
 
 
-function log(a, b, c) {
-    console.log(a);
-    console.log(b);
-    console.log(c);
-}
+// function log(a, b, c) {
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+// }
 
-const num = [2, 5, 7];
+// const num = [2, 5, 7];
 
-log(...num);
+// log(...num);
 
-const array = ['a', 'b'];
+// const array = ['a', 'b'];
 
-const newAarray = [...array];
+// const newAarray = [...array];
 
-const q = {
-    one: 1,
-    two: 2,
+// const q = {
+//     one: 1,
+//     two: 2,
+// };
+
+// const newObj = {
+//     ...q
+// };
+
+
+// let str = "some";
+// let strObj = new String(str);
+
+// console.log(tyoeof(str));
+// console.log(typeof (strObj));
+
+
+let str = "some";
+let strObj = new String(str);
+
+// console.log(typeof (str));
+// console.log(typeof (strObj));
+
+console.dir([1, 2, 3]);
+
+const soldier = {
+    health: 400,
+    armor: 100
+    sayHello: function () {
+        console.log("Hello");
+    }
 };
 
-const newObj = {
-    ...q
+const jonh = {
+    health: 100
 };
+
+// john.__proto__ = soldier;
+
+Object.setPrototypeOf(john, soldier);
+
+
+const john = Object.create(soldier);
